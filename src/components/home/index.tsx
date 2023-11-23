@@ -32,6 +32,7 @@ function Home() {
         <Button kind="secondary" onClick={logout}>
           Logout
         </Button>
+        <p>Hola Muli</p>
       </LandPageBackground>
     </Container>
   );

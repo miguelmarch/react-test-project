@@ -28,7 +28,7 @@ function Login(props: any) {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:5001/login", values);
+      const response = await axios.post("http://34.27.230.252:5001/login", values);
 
       signIn({
         token: response.data.token,
